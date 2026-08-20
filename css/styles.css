@@ -350,6 +350,77 @@ button {
     padding-left: 48px;
 }
 
+
+
+/* -------------- REVIEWS SECTION -------------- */
+
+.reviews-section {
+    background: #fff;
+    padding: 88px 0;
+}
+
+.reviews-track-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.reviews-track {
+    display: flex;
+}
+
+.review-card {
+    flex-shrink: 0;
+    width: 417px;
+    height: 234px;
+    background: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 0;
+
+    box-sizing: border-box;
+}
+
+.review-card-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.review-card-img {
+    width: 300px;
+    height: 74px;
+    object-fit: contain;
+}
+
+.reviews-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.reviews-dot {
+    width: 10px;
+    height: 10px;
+    background: #aaa;
+}
+
+.reviews-dot.active {
+    background: #000;
+}
+
+
+
+
+
+
 /* -------------- FOOTER -------------- */
 
 footer {
